@@ -1,0 +1,335 @@
+/* ===== Reset & Base Styles ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #0057a0;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #003f73;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* ===== Layout Containers ===== */
+.section-wrapper, .card1, .card2, .card3, .card4, .card5,
+.card6, .card7, .card8, .card9, .card10, .card11 {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.nav-left a, .nav-right a {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0057a0;
+}
+
+/* ===== Hero Section ===== */
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #eef4f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card1-img {
+  flex: 1;
+  min-width: 300px;
+  height: auto;
+}
+
+.card1-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.card1-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.card1-content p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.card1-content a {
+  display: inline-block;
+  background: #0057a0;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+/* ===== About Section ===== */
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.card2a {
+  flex: 1;
+}
+
+.card2b {
+  flex: 1;
+}
+
+.card2a p:first-child {
+  color: #0057a0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ===== Services ===== */
+.card3 {
+  text-align: center;
+}
+.card3 h1 {
+  font-size: 2em;
+  margin-top: 10px;
+}
+.card3 p {
+  margin-top: 10px;
+}
+
+/* ===== Products Section ===== */
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card4a, .card4b {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card4a h1, .card4b h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card5 {
+  text-align: center;
+  background: #0057a0;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+.card5 a {
+  margin-top: 20px;
+  display: inline-block;
+  background: #ffffff;
+  color: #0057a0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* ===== Testimonials ===== */
+.card6 {
+  display: flex;
+  flex-wrap: wrap;
+  background: #eef4f9;
+  padding: 40px;
+  border-radius: 8px;
+}
+.testimonial-left {
+  flex: 1;
+}
+.testimonial-right {
+  flex: 2;
+}
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #0057a0;
+  border-radius: 4px;
+}
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* ===== Partners ===== */
+.card7 {
+  text-align: center;
+}
+
+/* ===== Resources ===== */
+.card9 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card9a, .card9b, .card9c {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* ===== Contact Section ===== */
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.contactDetails {
+  flex: 1;
+}
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-top: 10px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+form button {
+  margin-top: 20px;
+  background: #0057a0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-branding h2 {
+  color: #fff;
+}
+.footer-nav a {
+  display: block;
+  margin: 5px 0;
+  color: #ccc;
+}
+.footer-cta h2 {
+  font-size: 1.5em;
+}
+.footer-cta a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0057a0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .card1, .card2, .card6, .con {
+    flex-direction: column;
+  }
+
+  .card4, .card9, .contacts {
+    flex-direction: column;
+  }
+}
+.gallery-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.gallery-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #004080;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  padding: 15px 10px;
+  font-weight: 600;
+  color: #333;
+}
