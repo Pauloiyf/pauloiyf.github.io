@@ -41,7 +41,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-left: 3em;
-  padding-right: 8em;
+  padding-right: auto;
   background: #d3dddf;
   border-bottom: 1px solid #ddd;
 
