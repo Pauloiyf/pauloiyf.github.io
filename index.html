@@ -6,10 +6,9 @@
     <title>Pau Uniforms – Quality & Style for Every Profession</title>
     <link rel="stylesheet" href="style.css" />
     <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
-
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -20,22 +19,16 @@
           <a href="#about">About Us</a>
         </div>
 
-        <div class="nav-logo">PaUni</div>
+        <div class="nav-logo">PaUniforms</div>
 
         <div class="nav-right">
           <a href="#products">Products</a>
           <a href="#resources">Resources</a>
           <a href="#contact">Contact</a>
         </div>
-
-        <button class="hamburger" aria-expanded="false" aria-label="Menu">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
+        <div class="menu-toggle hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
         <div class="nav-links" id="navLinks">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
@@ -81,10 +74,7 @@
             <a href="#about">Learn More</a>
           </div>
           <div class="card2b">
-            <img
-              src="./assets/marching.jpg"
-              alt="Pau Uniforms Team"
-            />
+            <img src="./assets/marching.jpg" alt="Pau Uniforms Team" />
           </div>
         </div>
       </section>
@@ -128,43 +118,57 @@
       <section id="testimonials">
         <div class="card6">
           <div class="testimonial-slider">
-  <div class="testimonial-cards-wrapper">
-          <div class="testimonial-left">
-            <div class="card6a">
-              <p>TESTIMONIALS</p>
-              <h1>What Our Clients Say</h1>
-              <p>
-                Discover how Pau Uniforms has helped organizations enhance their
-                professional image.
-              </p>
-            </div>
-          </div>
-          <div class="testimonial-right">
-            <div class="testimonial-container">
-              <div class="testimonial-cards-wrapper">
-                <div class="testimonial-card">
-                  <p class="testimonial-text">
-                    "Pau Uniforms provided our school with high-quality uniforms
-                    that our students love. The fabric is comfortable, and the
-                    designs are stylish."
-                  </p>
-                  <p class="testimonial-author">
-                    — Chacha C., School Administrator
+            <div class="testimonial-cards-wrapper">
+              <div class="testimonial-left">
+                <div class="card6a">
+                  <p>TESTIMONIALS</p>
+                  <h1>What Our Clients Say</h1>
+                  <p>
+                    Discover how Pau Uniforms has helped organizations enhance
+                    their professional image.
                   </p>
                 </div>
-                <div class="testimonial-card">
-                  <p class="testimonial-text">
-                    "Our company partnered with Pau Uniforms for our staff
-                    uniforms. The process was seamless, and the final product
-                    exceeded our expectations."
-                  </p>
-                  <p class="testimonial-author">— Daniel C., HR Manager</p>
-                </div>
-                <div class="testimonial-card">
-                  <p class="testimonial-text">
-                    "Fast delivery and perfect fits!"
-                  </p>
-                  <p class="testimonial-author">— Andrew W., Event Planner</p>
+              </div>
+
+              <div class="testimonial-right">
+                <div class="testimonial-container">
+                  <div class="testimonial-card">
+                    <p class="testimonial-text">
+                      "Pau Uniforms provided our school with high-quality
+                      uniforms that our students love. The fabric is
+                      comfortable, and the designs are stylish."
+                    </p>
+                    <p class="testimonial-author">
+                      — Chacha C., School Administrator
+                    </p>
+                  </div>
+                  <div class="testimonial-card">
+                    <p class="testimonial-text">
+                      "Our company partnered with Pau Uniforms for our staff
+                      uniforms. The process was seamless, and the final product
+                      exceeded our expectations."
+                    </p>
+                    <p class="testimonial-author">— Daniel C., HR Manager</p>
+                  </div>
+                  <div class="testimonial-card">
+                    <p class="testimonial-text">
+                      "Fast delivery and perfect fits!"
+                    </p>
+                    <p class="testimonial-author">— Andrew W., Event Planner</p>
+                  </div>
+
+                  <div class="arrows">
+                    <button
+                      class="arrow-prev"
+                      aria-label="Previous testimonial"
+                    >
+                      ❮
+                    </button>
+                    <button class="arrow-next" aria-label="Next testimonial">
+                      ❯
+                    </button>
+                  </div>
+                  <div class="testimonial-indicators"></div>
                 </div>
               </div>
             </div>
@@ -175,7 +179,8 @@
       <section id="partners">
         <div class="card7">
           <p>OUR PARTNERS</p>
-          <img style="min-width: 75%;"
+          <img
+            style="min-width: 75%"
             class="partnerspic"
             src="./assets/proud-boss-encouraging-thanking-happy-260nw-2000247506.jpg"
             alt="Our Valued Partners"
@@ -191,7 +196,6 @@
             Access articles, styling tips, and maintenance guides to get the
             most out of your uniforms.
           </p>
-        
         </div>
 
         <div class="card9">
@@ -229,65 +233,64 @@
             <p>School Uniform</p>
           </div>
           <div class="gallery-item">
-            <img
-              src="./assets/health2.jpg"
-              alt="Healthcare Uniform"
-            />
+            <img src="./assets/health2.jpg" alt="Healthcare Uniform" />
             <p>Healthcare Uniform</p>
           </div>
           <div class="gallery-item">
-            <img
-              src="./assets/corporate uni.jpg"
-              alt="Corporate Uniform"
-            />
+            <img src="./assets/corporate uni.jpg" alt="Corporate Uniform" />
             <p>Corporate Uniform</p>
           </div>
           <div class="gallery-item">
-            <img
-              src="./assets/sports team.jpg"
-              alt="Team Wearing Uniforms"
-            />
+            <img src="./assets/sports team.jpg" alt="Team Wearing Uniforms" />
             <p>Team Uniforms</p>
           </div>
         </div>
       </section>
 
-        
-  <!-- Contact Form -->
-   <section id="contact">
-  <h2>Contact Us</h2>
-  <p>We’d love to hear from you! Reach out using the form below or find us on social media.</p>
+      <!-- Contact Form -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          We'd love to hear from you! Reach out using the form below or find us
+          on social media.
+        </p>
 
-  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-
-  </div>
-</section>
-
-        <footer>
-          <div class="footer-contact">
-            <p>
-              📧 <a href="mailto:info@pauuniforms.com">info@pauuniforms.com</a>
-            </p>
-            <p>📞 <a href="tel:+254701234567">+254 701 234 567</a></p>
-          </div>
-          <div class="footer-socials">
-            <a href="https://facebook.com/pauuniforms" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="https://instagram.com/pauuniforms" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="https://linkedin.com/company/pauuniforms" target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-        </footer>
+        <form
+          action="https://formspree.io/f/your-form-id"
+          method="POST"
+          class="contact-form"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
       </section>
+
+      <footer>
+        <div class="footer-contact">
+          <p>
+            📧 <a href="mailto:info@pauuniforms.com">info@pauuniforms.com</a>
+          </p>
+          <p>📞 <a href="tel:+254701234567">+254 701 234 567</a></p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://facebook.com/pauuniforms" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://instagram.com/pauuniforms" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://linkedin.com/company/pauuniforms" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </main>
     <script src="script.js"></script>
   </body>

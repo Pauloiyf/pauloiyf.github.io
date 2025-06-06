@@ -41,14 +41,25 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-left: 3em;
+  padding-right: 8em;
   background: #d3dddf;
   border-bottom: 1px solid #ddd;
-  flex-wrap: wrap;
+
 }
 
 .nav-left a, .nav-right a {
   margin: 0 10px;
   font-weight: 500;
+  gap: 2rem;
+  flex: 1;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-right {
+  justify-content: flex-end;
 }
 
 .nav-logo {
@@ -278,9 +289,12 @@ img {
   background: white;
   padding: 20px;
   margin-bottom: 20px;
+  min-width: 100%;
+  box-sizing: border-box;
   border-left: 4px solid #0057a0;
   border-radius: 4px;
 }
+
 .testimonial-text {
   font-style: italic;
   margin-bottom: 10px;
@@ -294,15 +308,6 @@ img {
 .testimonial-cards-wrapper {
   display: flex;
   transition: transform 0.5s ease-in-out;
-}
-
-.testimonial-card {
-  min-width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  background: white;
-  border-left: 4px solid #0057a0;
-  border-radius: 4px;
 }
 
 .arrow {
