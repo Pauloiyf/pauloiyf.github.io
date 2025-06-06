@@ -11,6 +11,10 @@ hamburger.addEventListener("click", () => {
     hamburger.setAttribute("aria-expanded", !expanded);
 });
 
+
+
+
+
 // ==============================
 // 2. Testimonial Slider
 // ==============================
@@ -36,12 +40,6 @@ btnPrev?.addEventListener("click", () => {
     updateSlider();
 });
 
-// Initial slider setup
-wrapper.style.display = "flex";
-wrapper.style.transition = "transform 0.4s ease";
-testimonials.forEach(card => {
-    card.style.minWidth = "100%";
-});
 
 // ==============================
 // 3. (Optional) Form Submission Demo
