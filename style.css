@@ -157,6 +157,7 @@ img {
       font-display:auto;
       padding-left: auto;
       padding-right: auto;
+      display: none;
       
     }
 }
